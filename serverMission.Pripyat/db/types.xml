@@ -2686,6 +2686,18 @@
         <category name="clothes"/>
         <usage name="Town"/>
     </type>
+	<type name="Blowtorch">
+        <nominal>30</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>20</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <usage name="Industrial"/>
+    </type>
     <type name="BoarSteakMeat">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
@@ -10422,6 +10434,21 @@
         <value name="Tier2"/>
         <value name="Tier3"/>
     </type>
+	<type name="Mag_SSG82_5rnd">
+        <nominal>25</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>15</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
     <type name="Mag_STANAGCoupled_30Rnd">
         <nominal>0</nominal>
         <lifetime>28800</lifetime>
@@ -13377,6 +13404,21 @@
         <usage name="Military"/>
         <value name="Tier2"/>
         <value name="Tier3"/>
+    </type>
+	<type name="SSG82">
+        <nominal>15</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>8</min>
+        <quantmin>0</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Police"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
     </type>
     <type name="SVD">
         <nominal>5</nominal>
