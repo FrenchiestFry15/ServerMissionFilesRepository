@@ -2721,6 +2721,53 @@
 			<item name="HatchbackTrunk_White" chance="0.20" />
 		</attachments>
 	</type>
+	<type name="Offroad_02">
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Trunk" chance="0.5" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Hood" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Door_1_1" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Door_1_2" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Door_2_1" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Door_2_2" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="GlowPlug" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.30" />
+		</attachments>
+	</type>
 	<!-- -->
 	<type name="CivilianSedan">
 		<attachments chance="1.00">
