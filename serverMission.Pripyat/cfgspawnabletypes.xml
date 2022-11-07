@@ -79,6 +79,9 @@
 	<type name="WoodenCrate">
 		<hoarder />
 	</type>
+	<type name="SSG82Optic">
+		<damage min="0.0" max="0.0" />
+	</type>
 	<type name="AssaultBag_Ttsko">
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
@@ -1635,17 +1638,24 @@
 	<type name="ZmbF_PoliceWomanNormal">
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
+		<cargo chance="0.10">
+			<item name="Mag_SSG82_5rnd" chance="1.0" />
+		</cargo>
 		<attachments preset="hatsPolice" />
 	</type>
 	<type name="ZmbM_PolicemanFat">
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
+		<cargo chance="0.10">
+			<item name="Mag_SSG82_5rnd" chance="1.0" />
+		</cargo>
 		<attachments preset="hatsPolice" />
 	</type>
 	<type name="ZmbM_PolicemanSpecForce">
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
 		<cargo chance="0.1">
+			<item name="Mag_SSG82_5rnd" chance="0.50" />
 			<item name="Mag_Scout_5Rnd" chance="1.0" />
 		</cargo>
 		<attachments preset="hatsPolice" />
@@ -1654,6 +1664,7 @@
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
 		<cargo chance="0.1">
+			<item name="Mag_SSG82_5rnd" chance="0.50" />
 			<item name="Mag_Scout_5Rnd" chance="1.0" />
 		</cargo>
 		<attachments preset="hatsPolice" />
@@ -2314,6 +2325,11 @@
 		</attachments>
 		<attachments chance="0.60">
 			<item name="Mag_P1_8Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="SSG82">
+		<attachments chance="0.1">
+			<item name="Mag_SSG82_5rnd" chance="1.00" />
 		</attachments>
 	</type>
 <!-- FUTURE
