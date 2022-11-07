@@ -2294,6 +2294,11 @@
 			<item name="M4_Suppressor" chance="0.25" />
 		</attachments>
 	</type>
+	<type name="LongHorn">
+		<attachments chance="1.00">
+			<item name="PistolOptic" chance="1.00" />
+		</attachments>
+	</type>
 <!-- FUTURE
 	<type name="M249">
 		<attachments chance="1.00">
@@ -2349,14 +2354,6 @@
 		</attachments>
 		<attachments chance="0.10">
 			<item name="FNP45_MRDSOptic" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="LongHorn">
-		<attachments chance="0.20">
-			<item name="Crossbow_RedpointOptic" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="PistolOptic" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="P1">
