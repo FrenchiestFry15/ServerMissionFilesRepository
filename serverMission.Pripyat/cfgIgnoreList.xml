@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <ignore>
 	<type name="EasterEgg"></type>
+	<type name="BandanaMask_BlackPattern"></type>
+	<type name="BandanaMask_CamoPattern"></type>
+	<type name="BandanaMask_GreenPattern"></type>
+	<type name="BandanaMask_PolkaPattern"></type>
+	<type name="BandanaMask_RedPattern"></type>
 </ignore>

@@ -79,6 +79,9 @@
 	<type name="WoodenCrate">
 		<hoarder />
 	</type>
+	<type name="SSG82Optic">
+		<damage min="0.0" max="0.0" />
+	</type>
 	<type name="AssaultBag_Ttsko">
 		<cargo preset="mixArmy" />
 		<cargo preset="mixArmy" />
@@ -1635,17 +1638,24 @@
 	<type name="ZmbF_PoliceWomanNormal">
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
+		<cargo chance="0.10">
+			<item name="Mag_SSG82_5rnd" chance="1.0" />
+		</cargo>
 		<attachments preset="hatsPolice" />
 	</type>
 	<type name="ZmbM_PolicemanFat">
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
+		<cargo chance="0.10">
+			<item name="Mag_SSG82_5rnd" chance="1.0" />
+		</cargo>
 		<attachments preset="hatsPolice" />
 	</type>
 	<type name="ZmbM_PolicemanSpecForce">
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
 		<cargo chance="0.1">
+			<item name="Mag_SSG82_5rnd" chance="0.50" />
 			<item name="Mag_Scout_5Rnd" chance="1.0" />
 		</cargo>
 		<attachments preset="hatsPolice" />
@@ -1654,6 +1664,7 @@
 		<cargo preset="toolsPolice" />
 		<cargo preset="ammoPolice" />
 		<cargo chance="0.1">
+			<item name="Mag_SSG82_5rnd" chance="0.50" />
 			<item name="Mag_Scout_5Rnd" chance="1.0" />
 		</cargo>
 		<attachments preset="hatsPolice" />
@@ -2294,6 +2305,33 @@
 			<item name="M4_Suppressor" chance="0.25" />
 		</attachments>
 	</type>
+	<type name="CZ550">
+		<damage min="0.3" max="0.7" />
+		<attachments chance="0.10">
+			<item name="HuntingOptic" chance="1.00" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="Mag_CZ550_10rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="LongHorn">
+		<attachments chance="1.00">
+			<item name="PistolOptic" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="P1">
+		<attachments chance="0.05">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.60">
+			<item name="Mag_P1_8Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="SSG82">
+		<attachments chance="0.1">
+			<item name="Mag_SSG82_5rnd" chance="1.00" />
+		</attachments>
+	</type>
 <!-- FUTURE
 	<type name="M249">
 		<attachments chance="1.00">
@@ -2351,22 +2389,6 @@
 			<item name="FNP45_MRDSOptic" chance="1.00" />
 		</attachments>
 	</type>
-	<type name="LongHorn">
-		<attachments chance="0.20">
-			<item name="Crossbow_RedpointOptic" chance="1.00" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="PistolOptic" chance="1.00" />
-		</attachments>
-	</type>
-	<type name="P1">
-		<attachments chance="0.10">
-			<item name="PistolSuppressor" chance="1.00" />
-		</attachments>
-		<attachments chance="0.10">
-			<item name="Mag_P1_8Rnd" chance="1.00" />
-		</attachments>
-	</type>
 	<type name="Red9">
 		<attachments chance="0.10">
 			<item name="Red9Bttstck" chance="1.00" />
@@ -2375,6 +2397,11 @@
 -->
 	<!--  END OF WEAPONS  -->
 	<type name="PersonalRadio">
+		<attachments chance="0.30">
+			<item name="Battery9V" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="GPSReceiver">
 		<attachments chance="0.30">
 			<item name="Battery9V" chance="1.00" />
 		</attachments>
@@ -2713,6 +2740,53 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="HatchbackTrunk_White" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="Offroad_02">
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Trunk" chance="0.5" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Hood" chance="1.0" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Door_1_1" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Door_1_2" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Door_2_1" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Offroad_02_Door_2_2" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="GlowPlug" chance="0.30" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.30" />
 		</attachments>
 	</type>
 	<!-- -->
